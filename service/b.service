@@ -1,0 +1,10 @@
+[Unit]
+Description=a back up service:)
+
+[Service]
+ExecStart=/home/abolmint/Desktop/backup_bash-script/backup.sh /home/abolmint/Desktop/backup_bash-script/backup.conf
+WorkingDirectory=/home/abolmint/Desktop/backup_bash-script
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

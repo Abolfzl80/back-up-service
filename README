@@ -1,0 +1,20 @@
+
+## Description
+
+a back up service !
+backup from dir you write in frist line in .conf file
+in line 2 address you want send the back up
+it is simple and fun:)
+and with 
+start or enable service it run every 00-00-00  
+
+## start
+
+frist you must add a service and timer file in /etc/systemd/service 
+and then:
+sudo systemctl enable b.service 
+sudo systemctl enable b.timer 
+or 
+if you want run it just a one more you can start a service
+like:
+sudo systemctl start b.service 
