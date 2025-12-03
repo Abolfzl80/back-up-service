@@ -1,0 +1,11 @@
+bachup.conf:
+
+S = is dir you want get bachup from it
+DEST = is dir you want send a bachup folder to it
+
+bachup.sh:
+
+in line 3 and 4 i get a address dir with cut
+line 5 make a dir for send to it
+line 6 i sended it
+and then run...
